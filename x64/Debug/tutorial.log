@@ -1,0 +1,3 @@
+﻿  Main.cpp
+D:\graphics\opengl\tutorial\Main.cpp(33,33): warning C4305: “参数”: 从“double”到“GLfloat”截断
+  tutorial.vcxproj -> D:\graphics\opengl\tutorial\x64\Debug\tutorial.exe
