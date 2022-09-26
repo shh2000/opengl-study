@@ -1,3 +1,10 @@
 ﻿  Main.cpp
-D:\graphics\opengl\tutorial\Main.cpp(33,33): warning C4305: “参数”: 从“double”到“GLfloat”截断
+D:\graphics\opengl\tutorial\Main.cpp(27,30): warning C4838: 从“double”转换到“GLfloat”需要收缩转换
+D:\graphics\opengl\tutorial\Main.cpp(27,30): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
+D:\graphics\opengl\tutorial\Main.cpp(28,29): warning C4838: 从“double”转换到“GLfloat”需要收缩转换
+D:\graphics\opengl\tutorial\Main.cpp(28,29): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
+D:\graphics\opengl\tutorial\Main.cpp(29,32): warning C4838: 从“double”转换到“GLfloat”需要收缩转换
+D:\graphics\opengl\tutorial\Main.cpp(29,32): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
+D:\graphics\opengl\tutorial\Main.cpp(87,33): warning C4305: “参数”: 从“double”到“GLfloat”截断
+D:\graphics\opengl\tutorial\Main.cpp(95,34): warning C4305: “参数”: 从“double”到“GLfloat”截断
   tutorial.vcxproj -> D:\graphics\opengl\tutorial\x64\Debug\tutorial.exe
