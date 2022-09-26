@@ -11,10 +11,10 @@ const char* vertexShaderSource = "#version 330 core\n"
 const char* fragmentShaderSource = "#version 330 core\n"
 "out vec4 FragColor;\n"
 "void main(){\n"
-"	FragColor = vec4(0.8f, 0.3f, 0.02f, 1.0f);\n"
+"	FragColor = vec4(0.0f, 0.0f, 0.0f, 1.0f);\n"
 "}\0";
 
-int main() {
+int fakemain() {
 	//init lib before calls
 	glfwInit();
 
@@ -24,9 +24,9 @@ int main() {
 	glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 
 	GLfloat vertices[] = {
-		-0.5,-0.5 * float(sqrt(3)) / 3,0.0,
-		0.5,-0.5 * float(sqrt(3)) / 3,0.0,
-		0.5,0.5 * float(sqrt(3)) * 2 / 3,0.0,
+		-0.5,-0.5 ,0.0,
+		0.5,-0.5,0.0,
+		0.0,0.5,0.0,
 	};
 
 	//create a window
@@ -45,7 +45,7 @@ int main() {
 	gladLoadGL();
 
 	//determine subwindow
-	glViewport(0, 0, 1920, 1080);
+	glViewport(0, 400, 800, 600);
 
 	//create ver and frag shader into shaderprogram
 	GLuint vertexShader = glCreateShader(GL_VERTEX_SHADER);
